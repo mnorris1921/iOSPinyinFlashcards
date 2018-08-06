@@ -15,6 +15,9 @@
 		4C068AA22117C46E00E42BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AA02117C46E00E42BE0 /* LaunchScreen.storyboard */; };
 		4C068AAD2117C46E00E42BE0 /* iOS_PinyinFlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C068AAC2117C46E00E42BE0 /* iOS_PinyinFlashcardsTests.swift */; };
 		4C068AB82117C46E00E42BE0 /* iOS_PinyinFlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C068AB72117C46E00E42BE0 /* iOS_PinyinFlashcardsUITests.swift */; };
+		4C068AC82117E66A00E42BE0 /* ChineseVocab4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AC52117E66800E42BE0 /* ChineseVocab4.csv */; };
+		4C068AC92117E66A00E42BE0 /* ChineseVocab6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AC62117E66900E42BE0 /* ChineseVocab6.csv */; };
+		4C068ACA2117E66A00E42BE0 /* ChineseVocab5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AC72117E66900E42BE0 /* ChineseVocab5.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4C068AB32117C46E00E42BE0 /* iOS_PinyinFlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_PinyinFlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C068AB72117C46E00E42BE0 /* iOS_PinyinFlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_PinyinFlashcardsUITests.swift; sourceTree = "<group>"; };
 		4C068AB92117C46E00E42BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C068AC52117E66800E42BE0 /* ChineseVocab4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChineseVocab4.csv; sourceTree = SOURCE_ROOT; };
+		4C068AC62117E66900E42BE0 /* ChineseVocab6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChineseVocab6.csv; sourceTree = SOURCE_ROOT; };
+		4C068AC72117E66900E42BE0 /* ChineseVocab5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChineseVocab5.csv; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				4C068A952117C46300E42BE0 /* AppDelegate.swift */,
 				4C068A972117C46300E42BE0 /* MasterViewController.swift */,
 				4C068A992117C46300E42BE0 /* DetailViewController.swift */,
+				4C068AC52117E66800E42BE0 /* ChineseVocab4.csv */,
+				4C068AC72117E66900E42BE0 /* ChineseVocab5.csv */,
+				4C068AC62117E66900E42BE0 /* ChineseVocab6.csv */,
 				4C068A9B2117C46300E42BE0 /* Main.storyboard */,
 				4C068A9E2117C46E00E42BE0 /* Assets.xcassets */,
 				4C068AA02117C46E00E42BE0 /* LaunchScreen.storyboard */,
@@ -233,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C068AA22117C46E00E42BE0 /* LaunchScreen.storyboard in Resources */,
+				4C068AC82117E66A00E42BE0 /* ChineseVocab4.csv in Resources */,
+				4C068AC92117E66A00E42BE0 /* ChineseVocab6.csv in Resources */,
 				4C068A9F2117C46E00E42BE0 /* Assets.xcassets in Resources */,
+				4C068ACA2117E66A00E42BE0 /* ChineseVocab5.csv in Resources */,
 				4C068A9D2117C46300E42BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
