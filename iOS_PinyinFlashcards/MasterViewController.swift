@@ -34,15 +34,27 @@ class MasterViewController: UITableViewController {
     }
 
     func insertAllVocab() {
-        objects.insert("ChineseVocab6", at: 0)
+        objects.insert("Vocab6", at: 0)
         var indexPath = IndexPath(row: 0, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
         
-        objects.insert("ChineseVocab5", at: 0)
+        objects.insert("Vocab5", at: 0)
         indexPath = IndexPath(row: 1, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
         
-        objects.insert("ChineseVocab4", at: 0)
+        objects.insert("Vocab4", at: 0)
+        indexPath = IndexPath(row: 2, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
+        
+        objects.insert("Vocab3", at: 0)
+        indexPath = IndexPath(row: 2, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
+        
+        objects.insert("Vocab2", at: 0)
+        indexPath = IndexPath(row: 2, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
+        
+        objects.insert("Vocab1", at: 0)
         indexPath = IndexPath(row: 2, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
     }

@@ -51,7 +51,7 @@ class DetailViewController: UIViewController {
         if currentIndex > 0 {
             repeat {
                 currentIndex = currentIndex - 1
-            } while (currentIndex > 0 && (shuffled[currentIndex][0]).isEmpty)
+            } while (currentIndex > 0 && currentIndex < shuffled.count && (shuffled[currentIndex][0]).isEmpty)
             
             updateWord()
         }
@@ -63,7 +63,7 @@ class DetailViewController: UIViewController {
         } while (currentIndex < shuffled.count &&
             (shuffled[currentIndex][0]).isEmpty)
         
-        if (currentIndex == shuffled.count) {
+        if (currentIndex >= shuffled.count) {
             self.dismiss(animated: true, completion: nil)
         }
         else {
@@ -143,15 +143,20 @@ class DetailViewController: UIViewController {
     }
 
     func updateWord () {
-        currentRow = shuffled[currentIndex]
-        if (isChineseToEnglish) {
-            word.text = currentRow[0]
+        if (currentIndex >= shuffled.count) {
+            self.dismiss(animated: true, completion: nil)
         }
         else {
-            word.text = currentRow[1]
-        }
-        if currentRow.count > 2 {
-            notes.text = "Notes: " + currentRow[2]
+            currentRow = shuffled[currentIndex]
+            if (isChineseToEnglish) {
+                word.text = currentRow[0]
+            }
+            else {
+                word.text = currentRow[1]
+            }
+            if currentRow.count > 2 {
+                notes.text = "Notes: " + currentRow[2]
+            }
         }
     }
 }
