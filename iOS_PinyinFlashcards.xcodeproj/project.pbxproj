@@ -27,6 +27,8 @@
 		4C068AE02127C33400E42BE0 /* Vocab2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AD42127C33400E42BE0 /* Vocab2.csv */; };
 		4C068AE12127C33400E42BE0 /* Vocab1.numbers in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AD52127C33400E42BE0 /* Vocab1.numbers */; };
 		4C068AE22127C33400E42BE0 /* Vocab4.numbers in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AD62127C33400E42BE0 /* Vocab4.numbers */; };
+		4C068AE52140B17200E42BE0 /* Vocab7.numbers in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AE32140B17100E42BE0 /* Vocab7.numbers */; };
+		4C068AE62140B17200E42BE0 /* Vocab7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4C068AE42140B17200E42BE0 /* Vocab7.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		4C068AD42127C33400E42BE0 /* Vocab2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vocab2.csv; sourceTree = SOURCE_ROOT; };
 		4C068AD52127C33400E42BE0 /* Vocab1.numbers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vocab1.numbers; sourceTree = SOURCE_ROOT; };
 		4C068AD62127C33400E42BE0 /* Vocab4.numbers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vocab4.numbers; sourceTree = SOURCE_ROOT; };
+		4C068AE32140B17100E42BE0 /* Vocab7.numbers */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vocab7.numbers; sourceTree = SOURCE_ROOT; };
+		4C068AE42140B17200E42BE0 /* Vocab7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vocab7.csv; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				4C068ACE2127C33300E42BE0 /* Vocab5.numbers */,
 				4C068ACC2127C33300E42BE0 /* Vocab6.csv */,
 				4C068ACB2127C33300E42BE0 /* Vocab6.numbers */,
+				4C068AE42140B17200E42BE0 /* Vocab7.csv */,
+				4C068AE32140B17100E42BE0 /* Vocab7.numbers */,
 				4C068A9B2117C46300E42BE0 /* Main.storyboard */,
 				4C068A9E2117C46E00E42BE0 /* Assets.xcassets */,
 				4C068AA02117C46E00E42BE0 /* LaunchScreen.storyboard */,
@@ -278,6 +284,8 @@
 				4C068A9D2117C46300E42BE0 /* Main.storyboard in Resources */,
 				4C068AE12127C33400E42BE0 /* Vocab1.numbers in Resources */,
 				4C068ADE2127C33400E42BE0 /* Vocab1.csv in Resources */,
+				4C068AE52140B17200E42BE0 /* Vocab7.numbers in Resources */,
+				4C068AE62140B17200E42BE0 /* Vocab7.csv in Resources */,
 				4C068AD82127C33400E42BE0 /* Vocab6.csv in Resources */,
 				4C068ADD2127C33400E42BE0 /* Vocab3.numbers in Resources */,
 				4C068AE22127C33400E42BE0 /* Vocab4.numbers in Resources */,
