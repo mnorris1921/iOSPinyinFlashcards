@@ -34,28 +34,32 @@ class MasterViewController: UITableViewController {
     }
 
     func insertAllVocab() {
-        objects.insert("Vocab6", at: 0)
+        objects.insert("Vocab7", at: 0)
         var indexPath = IndexPath(row: 0, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
         
-        objects.insert("Vocab5", at: 0)
+        objects.insert("Vocab6", at: 0)
         indexPath = IndexPath(row: 1, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
         
-        objects.insert("Vocab4", at: 0)
+        objects.insert("Vocab5", at: 0)
         indexPath = IndexPath(row: 2, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
+        
+        objects.insert("Vocab4", at: 0)
+        indexPath = IndexPath(row: 3, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
         
         objects.insert("Vocab3", at: 0)
-        indexPath = IndexPath(row: 2, section: 0)
+        indexPath = IndexPath(row: 4, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
         
         objects.insert("Vocab2", at: 0)
-        indexPath = IndexPath(row: 2, section: 0)
+        indexPath = IndexPath(row: 5, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
         
         objects.insert("Vocab1", at: 0)
-        indexPath = IndexPath(row: 2, section: 0)
+        indexPath = IndexPath(row: 6, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
     }
 
