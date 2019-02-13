@@ -32,6 +32,11 @@ extension Sequence {
     }
 }
 
+
+// TODO: When user taps pinyin/english word, hide it
+// TODO: Show chinese characters in [3] of the CSV, move notes to next column.
+// TODO: Finish Vocab 4
+
 class DetailViewController: UIViewController {
     var isChineseToEnglish = true
     var shuffled = [[String]]()
@@ -43,6 +48,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
     @IBOutlet weak var word: UILabel!
+    @IBOutlet weak var chineseCharacters: UILabel!
     @IBOutlet weak var notes: UILabel!
     @IBOutlet weak var prevButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
