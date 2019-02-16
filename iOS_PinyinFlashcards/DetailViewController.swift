@@ -45,8 +45,6 @@ class DetailViewController: UIViewController {
     var csv : [[String]]!
     var myTitle: String?
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
     @IBOutlet weak var word: UILabel!
     @IBOutlet weak var chineseCharacters: UILabel!
     @IBOutlet weak var notes: UILabel!
@@ -96,6 +94,10 @@ class DetailViewController: UIViewController {
         word.numberOfLines = 0
         word.font = UIFont(name: word.font!.fontName, size: 40)
         word.textAlignment = .center
+        
+        chineseCharacters.numberOfLines = 0
+        chineseCharacters.font = UIFont(name: chineseCharacters.font!.fontName, size: 40)
+        chineseCharacters.textAlignment = .center
         
         notes.lineBreakMode = .byWordWrapping
         word.numberOfLines = 0
@@ -160,8 +162,9 @@ class DetailViewController: UIViewController {
             else {
                 word.text = currentRow[1]
             }
+            chineseCharacters.text = currentRow[2]
             if currentRow.count > 2 {
-                notes.text = "Notes: " + currentRow[2]
+                notes.text = "Notes: " + currentRow[3]
             }
         }
     }
